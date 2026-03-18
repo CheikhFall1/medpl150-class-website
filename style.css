@@ -160,3 +160,14 @@ main img:not(:first-child){
   main > img{ width: 220px; }
   .two{ grid-template-columns: 1fr; }
 }
+
+.full-image {
+  display: flex;
+  justify-content: center;
+}
+
+.full-image img {
+  width: 90%;
+  max-width: 1200px;
+  height: auto;
+}
